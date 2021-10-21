@@ -1,0 +1,95 @@
+fieldset{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #ec6f01;
+}
+
+h1 {
+    text-align: center;
+    color: #fefc03;
+    margin-top: 0;
+}
+
+#logoItau {
+    display: block;
+    margin: auto;
+}
+
+input, select {
+    background: #ffffff;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+label {
+    padding: 15px 0 0 0 ;
+    display: block;
+    font-weight: bold;
+    clear: both;
+}
+
+.campo {
+    color: #fefc03;
+}
+
+.termo input {
+    display: inline;
+    padding: 10px;
+    width: 10px;
+}
+
+.termo {
+    width: 80%;
+    padding: 10px;
+    background: #003399;
+    margin:  15px auto;
+    border-radius: 5px;
+    color: #fefc03;
+    text-align: justify;
+}
+
+#buscarCep {
+    background: #003399;
+    border: none;
+    color: #fefc03;
+    border-radius: 5px;
+    padding: 8px;
+
+}
+
+#enviar {
+    width: 100%;
+    background: #003399;
+    border: none;
+    color: #fefc03;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 0 0 20px 0;
+}
+
+#enviar:hover, #buscarCep:hover {
+    background: #011b4e;
+}
+
+#enviar:active, #buscarCep:active {
+    background: #000c23;
+}
+
+.cpf, .rg, .sexo, #cep {
+    width: 30%;
+    display: flexbox;
+}
+
+p {
+    text-align: center;
+    color: #fefc03;
