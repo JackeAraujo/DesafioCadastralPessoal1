@@ -14,7 +14,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #fefc03;
+    color: #000080;
     margin-top: 0;
 }
 
@@ -39,7 +39,7 @@ label {
 }
 
 .campo {
-    color: #fefc03;
+    color: #000080;
 }
 
 .termo input {
@@ -54,14 +54,14 @@ label {
     background: #003399;
     margin:  15px auto;
     border-radius: 5px;
-    color: #fefc03;
+    color: #000080;
     text-align: justify;
 }
 
 #buscarCep {
     background: #003399;
     border: none;
-    color: #fefc03;
+    color: #000080;
     border-radius: 5px;
     padding: 8px;
 
@@ -71,7 +71,7 @@ label {
     width: 100%;
     background: #003399;
     border: none;
-    color: #fefc03;
+    color: #000080;
     border-radius: 5px;
     padding: 8px;
     margin: 0 0 20px 0;
@@ -92,4 +92,4 @@ label {
 
 p {
     text-align: center;
-    color: #fefc03;  }
+    color: #000080;  }
