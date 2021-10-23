@@ -18,7 +18,7 @@ Linguagens:
 
 Hospedagem:
 
-    Netlify, link:
+    Netlify, link: https://cadastropessoal1.netlify.app
 
 Funcionalidades:
 
