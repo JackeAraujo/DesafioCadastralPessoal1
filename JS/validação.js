@@ -51,25 +51,25 @@ document.getElementById('enviar').onclick = function validar() {
     }
 
     if (endereco.value == "") {
-        alert("É obrigatório informar o endereço.")
+        alert("É obrigatório informar o endereço.");
         endereco.focus();
         return;
     }
 
     if (numero.value == "") {
-        alert("É obrigatório informar o número de endereço.")
+        alert("É obrigatório informar o número de endereço.");
         numero.focus();
         return;
     }
 
     if (telefoneCelular.value == "") {
-        alert("É obrigatório informar o telefone de celular.")
+        alert("É obrigatório informar o telefone de celular.");
         telefoneCelular.focus();
         return;
     }
 
-    if (!termo.checked) {
-        alert("É preciso estar ciente com o Termo de Política de Privacidade e com a LGPD vigentes.")
+    if (termo.checked) {
+        alert("É preciso estar ciente com o Termo de Política de Privacidade.");
         termo.focus();
         return false;
     }
