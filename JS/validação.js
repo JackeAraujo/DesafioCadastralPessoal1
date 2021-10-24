@@ -77,7 +77,7 @@ document.getElementById('enviar').onclick = function validar() {
 }
 
 document.getElementById('formulario').onsubmit = function enviar() {
-    alert("Formulário enviado com sucesso!");
+    alert("Deseja enviar o formulario?");
     return;
 }
 
