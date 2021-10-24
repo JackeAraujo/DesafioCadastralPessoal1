@@ -31,10 +31,10 @@ document.getElementById('cpf').onchange = function cpf() {
 
 document.getElementById('enviar').onclick = function validar() {
     var nome = document.getElementById("nome");
-    var cpf = document.getElementById("cpf");
+    var cpf = document.getElementById("Cpf");
     var endereco = document.getElementById("endereco");
     var numero = document.getElementById("numero");
-    var telefoneCelular = document.getElementById("telefoneCelular");
+    var Celular = document.getElementById("Celular");
     var termo = document.getElementById("termo");
 
      /*Validação de campos obrigatórios - Inicio*/
@@ -68,7 +68,7 @@ document.getElementById('enviar').onclick = function validar() {
         return;
     }
 
-    if (termo.checked) {
+    if (!termo.checked) {
         alert("É preciso estar ciente com o Termo de Política de Privacidade.");
         termo.focus();
         return false;
