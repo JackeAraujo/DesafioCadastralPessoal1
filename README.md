@@ -26,4 +26,4 @@ Funcionalidades:
     Os campos possuem máscaras para facilitar a leitura do usuário.
 
 
-https://cadastropessoal1.netlify.app/
+https://cadastropessoal1.netlify.app
