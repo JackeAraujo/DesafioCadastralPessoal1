@@ -68,7 +68,7 @@ document.getElementById('enviar').onclick = function validar() {
         return;
     }
 
-    if (!termo.checked) {
+    if (termo.checked) {
         alert("É preciso estar ciente com o Termo de Política de Privacidade.");
         termo.focus();
         return false;
