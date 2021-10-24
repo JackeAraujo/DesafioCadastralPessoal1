@@ -78,6 +78,6 @@ document.getElementById('enviar').onclick = function validar() {
 
 document.getElementById('formulario').onsubmit = function enviar() {
     alert("Formulário enviado com sucesso!");
+    return;
 }
-
 
