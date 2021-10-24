@@ -17,7 +17,7 @@
         <div class="subtitulo">
     </div>
 
-    <form method="POST" action="" id="formulario" name="formulario">
+    <form id="formulario" onSubmit="return confirm('Deseja enviar o formulario?')">
         
         <!-- Definição de campos - Início -->
         <fieldset id="dados">
@@ -89,7 +89,7 @@
                 <input type="checkbox" name="termo" id="termo"> Enviando este formulário você aceita e
                 concorda com o Termo de Política de Privacidade.<br>
             </div>
-            <button type="submit" name="enviar" id="enviar" >Enviar</button>
+            <button class="botao" type="submit">Enviar</button>
             <!-- Definição de campos - Fim -->
         </fieldset>  
                       
