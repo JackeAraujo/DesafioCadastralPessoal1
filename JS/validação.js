@@ -35,4 +35,6 @@ document.getElementById('enviar').onclick = function validar() {
     var endereco = document.getElementById("endereco");
     var numero = document.getElementById("numero");
     var telefoneCelular = document.getElementById("telefoneCelular");
-    var termo = document.getElementById("termo"); }
+    var termo = document.getElementById("termo");
+    
+}
