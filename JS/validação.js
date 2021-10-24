@@ -36,5 +36,46 @@ document.getElementById('enviar').onclick = function validar() {
     var numero = document.getElementById("numero");
     var telefoneCelular = document.getElementById("telefoneCelular");
     var termo = document.getElementById("termo");
-    
+
+     /*Validação de campos obrigatórios - Inicio*/
+     if (nome.value == "") {
+        alert("É obrigatório informar o nome.");
+        nome.focus();
+        return;
+    }
+
+    if (cpf.value == "") {
+        alert("É obrigatório informar o CPF.");
+        cpf.focus();
+        return;
+    }
+
+    if (endereco.value == "") {
+        alert("É obrigatório informar o endereço.")
+        endereco.focus();
+        return;
+    }
+
+    if (numero.value == "") {
+        alert("É obrigatório informar o número de endereço.")
+        numero.focus();
+        return;
+    }
+
+    if (telefoneCelular.value == "") {
+        alert("É obrigatório informar o telefone de celular.")
+        telefoneCelular.focus();
+        return;
+    }
+
+    if (!termo.checked) {
+        alert("É preciso estar ciente com o Termo de Política de Privacidade e com a LGPD vigentes.")
+        termo.focus();
+        return false;
+    }
+    /*Validacao de campos obrigatorios - Fim*/
+}
+
+document.getElementById('formulario').onsubmit = function enviar() {
+    alert("Formulário enviado com sucesso!");
 }
