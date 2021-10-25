@@ -39,5 +39,4 @@ Referências/Estudos:
    https://www.linkedin.com/in/jaqueline-marques-de-araujo-96652a175
    
     
-  
-    https://cadastropessoal1.netlify.app
+   https://cadastropessoal1.netlify.app
